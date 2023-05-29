@@ -1,0 +1,27 @@
+@import '../../scss/index.scss';
+
+.login-form {
+  &__error {
+    color: $error !important;
+    text-align: center;
+  }
+  margin: 1rem;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+}
+
+.form-item-three {
+  margin-top: 2rem;
+  padding-left: 35%;
+}
+
+.form-input {
+  width: 75% !important;
+}
+
+.ant-form-item-explain {
+  margin-bottom: 0.2rem;
+  text-align: center;
+}

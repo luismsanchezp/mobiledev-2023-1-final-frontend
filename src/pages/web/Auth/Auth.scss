@@ -1,0 +1,31 @@
+.auth-card {
+    width: 50%;
+    margin: 1rem;
+    padding: 0 1rem 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.auth-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-logo-img {
+    width: 65%;
+    margin-top: 1rem;
+}
+
+.auth-back {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
