@@ -11,7 +11,7 @@ export const AdminMenu = () => {
 
     const items = [
         { key: '/', label: 'Dashboard' },
-        { key: '/admin/management/companies', label: 'Management' },
+        { key: '/admin/management/students', label: 'Management' },
     ];
     
     return (

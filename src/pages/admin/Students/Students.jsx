@@ -1,9 +1,9 @@
 import { Tabs } from 'antd';
 import { 
-    CompaniesList,
-    CompaniesForm 
+    StudentsList,
+    AdminCreateUser 
 } from '../../../components';
-import './Companies.scss'
+import './Students.scss'
 
 const onChange = (key) => {
   console.log(key);
@@ -12,16 +12,16 @@ const items = [
   {
     key: '1',
     label: `List`,
-    children: <CompaniesList />,
+    children: <StudentsList />,
   },
   {
     key: '2',
     label: `Add`,
-    children: <CompaniesForm />,
+    children: <AdminCreateUser />,
   }
 ];
 
-export const Companies = () => {
+export const Students = () => {
   return (
     <div className='companies-bg'>
     <div className='companies-content'>

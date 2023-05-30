@@ -11,3 +11,19 @@ h3 {
 .comp-list {
     width: 99%;
 }
+
+.meetings-card-bttns {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.meetings-card-edit {
+    background-color: blueviolet;
+    color: white;
+}
+
+.meetings-card-delete {
+    background-color: red;
+    color: white;
+}

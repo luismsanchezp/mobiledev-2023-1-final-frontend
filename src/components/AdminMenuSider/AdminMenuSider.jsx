@@ -21,9 +21,9 @@ export const AdminMenuSider = () => {
 
   const management = [
     {
-      key: '/admin/management/companies',
+      key: '/admin/management/students',
       icon: <LaptopOutlined />,
-      label: 'Companies',
+      label: 'Students',
       onClick: handleClick,
     },
   ];
@@ -32,8 +32,8 @@ export const AdminMenuSider = () => {
     if (location.pathname === '/admin/management/companies') {
       return management;
     }
-    if (location.pathname === '/admin/tracing/students') {
-      return tracing;
+    if (location.pathname === '/admin/management/students') {
+      return management;
     }
     if (location.pathname === '/') {
       return dashboard;
